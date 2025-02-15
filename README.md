@@ -17,41 +17,41 @@ A chatbot-powered document management system that allows users to upload, store,
 First, decide on the technologies you’ll use:
 
 📌 Frontend (Chat UI):
-
 React.js (or Next.js for better performance)
 TailwindCSS for styling
-📌 Backend (Chatbot & API):
 
+📌 Backend (Chatbot & API):
 Node.js with Express.js or Python with Flask/Django
 Dialogflow / OpenAI API for chatbot intelligence
-📌 Database & Storage:
 
+📌 Database & Storage:
 MongoDB / Firebase (for storing metadata)
 Google Drive / AWS S3 / Firebase Storage (for storing actual documents)
-📌 Security & Authentication:
 
+📌 Security & Authentication:
 Firebase Authentication / JWT-based authentication
 AES encryption for document storage
 Role-based access control (RBAC)
-📌 AI & OCR:
 
+📌 AI & OCR:
 OpenAI API for text-based queries
 Tesseract.js (JS) or Google Vision API for OCR (text from images)
+
 ✅ 2. Setting Up the Project Structure
 🔹 Frontend:
-
 Build a simple chatbot UI in React.js
 Add a document upload & management section
 Use WebSockets / API calls for real-time responses
-🔹 Backend:
 
+🔹 Backend:
 Set up Express.js (or Flask/Django) API
 Create authentication (Login/Register)
 Define API routes for document upload, retrieval, and chatbot queries
-🔹 Database:
 
+🔹 Database:
 Store document metadata (filename, type, user ID)
 Store encrypted document files securely
+
 ✅ 3. Building Core Functionalities
 🔸 User Authentication (Login & Signup)
 ✔ Implement JWT-based authentication or Firebase Auth
